@@ -1,0 +1,450 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:TSOP4838
+LIBS:2N3904
+LIBS:Basic PCB class-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D4
+U 1 1 5869FDA5
+P 8500 3500
+F 0 "D4" H 8500 3600 50  0000 C CNN
+F 1 "LED" H 8500 3400 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 8500 3500 50  0001 C CNN
+F 3 "" H 8500 3500 50  0000 C CNN
+	1    8500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R9
+U 1 1 5869FE13
+P 8500 3900
+F 0 "R9" V 8580 3900 50  0000 C CNN
+F 1 "220" V 8500 3900 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8430 3900 50  0001 C CNN
+F 3 "" H 8500 3900 50  0000 C CNN
+	1    8500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C1
+U 1 1 5869FEB1
+P 8100 4600
+F 0 "C1" H 8110 4670 50  0000 L CNN
+F 1 "10u" H 8110 4520 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 8100 4600 50  0001 C CNN
+F 3 "" H 8100 4600 50  0000 C CNN
+	1    8100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 586A019C
+P 7850 4300
+F 0 "R8" V 7930 4300 50  0000 C CNN
+F 1 "1K" V 7850 4300 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7780 4300 50  0001 C CNN
+F 3 "" H 7850 4300 50  0000 C CNN
+	1    7850 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 586A0A6C
+P 2200 3650
+F 0 "R1" V 2280 3650 50  0000 C CNN
+F 1 "1M" V 2200 3650 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2130 3650 50  0001 C CNN
+F 3 "" H 2200 3650 50  0000 C CNN
+	1    2200 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 586A0B10
+P 2950 3650
+F 0 "R2" V 3030 3650 50  0000 C CNN
+F 1 "100K" V 2950 3650 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2880 3650 50  0001 C CNN
+F 3 "" H 2950 3650 50  0000 C CNN
+	1    2950 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R3
+U 1 1 586A0B59
+P 3700 4000
+F 0 "R3" V 3780 4000 50  0000 C CNN
+F 1 "220" V 3700 4000 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3630 4000 50  0001 C CNN
+F 3 "" H 3700 4000 50  0000 C CNN
+	1    3700 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L BC547 Q3
+U 1 1 586A0C41
+P 3600 4450
+F 0 "Q3" H 3800 4525 50  0000 L CNN
+F 1 "BC547" H 3800 4450 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 3800 4375 50  0000 L CIN
+F 3 "" H 3600 4450 50  0000 L CNN
+	1    3600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC547 Q5
+U 1 1 586A0CAD
+P 8400 4300
+F 0 "Q5" H 8600 4375 50  0000 L CNN
+F 1 "BC547" H 8600 4300 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 8600 4225 50  0000 L CIN
+F 3 "" H 8400 4300 50  0000 L CNN
+	1    8400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC547 Q2
+U 1 1 586A0E8D
+P 2850 4250
+F 0 "Q2" H 3050 4325 50  0000 L CNN
+F 1 "BC547" H 3050 4250 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 3050 4175 50  0000 L CIN
+F 3 "" H 2850 4250 50  0000 L CNN
+	1    2850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC547 Q1
+U 1 1 586A0EDF
+P 2100 4050
+F 0 "Q1" H 2300 4125 50  0000 L CNN
+F 1 "BC547" H 2300 4050 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 2300 3975 50  0000 L CIN
+F 3 "" H 2100 4050 50  0000 L CNN
+	1    2100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 586A0F5A
+P 3700 3550
+F 0 "D1" H 3700 3650 50  0000 C CNN
+F 1 "LED" H 3700 3450 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 3700 3550 50  0001 C CNN
+F 3 "" H 3700 3550 50  0000 C CNN
+	1    3700 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P1
+U 1 1 586A1A01
+P 1450 4050
+F 0 "P1" H 1450 4150 50  0000 C CNN
+F 1 "CONN_01X01" V 1550 4050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 1450 4050 50  0001 C CNN
+F 3 "" H 1450 4050 50  0000 C CNN
+	1    1450 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L TSOP4838 U1
+U 1 1 586A3873
+P 7100 4300
+F 0 "U1" H 7100 4300 50  0001 L CNN
+F 1 "TSOP4838" H 7100 4300 50  0001 L CNN
+F 2 "Fucking Kikad:TSOP48" H 7100 4300 50  0001 L CNN
+F 3 "TSOP4838" H 7100 4300 50  0001 L CNN
+F 4 "0.61 USD" H 7100 4300 50  0001 L CNN "Price"
+F 5 "DIP-3 Vishay" H 7100 4300 50  0001 L CNN "Package"
+F 6 "Vishay" H 7100 4300 50  0001 L CNN "MF"
+F 7 "Good" H 7100 4300 50  0001 L CNN "Availability"
+F 8 "38 kHz 45 m 2.5-5.5 V Through Hole IR Receiver Module for Remote Control System" H 7100 4300 50  0001 L CNN "Description"
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 586A4890
+P 5850 4150
+F 0 "R6" V 5930 4150 50  0000 C CNN
+F 1 "220" V 5850 4150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5780 4150 50  0001 C CNN
+F 3 "" H 5850 4150 50  0000 C CNN
+	1    5850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 586A4916
+P 6200 4150
+F 0 "R7" V 6280 4150 50  0000 C CNN
+F 1 "220" V 6200 4150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6130 4150 50  0001 C CNN
+F 3 "" H 6200 4150 50  0000 C CNN
+	1    6200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 586A4977
+P 5100 3650
+F 0 "R4" V 5180 3650 50  0000 C CNN
+F 1 "47K" V 5100 3650 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5030 3650 50  0001 C CNN
+F 3 "" H 5100 3650 50  0000 C CNN
+	1    5100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 586A4A93
+P 5850 3700
+F 0 "D2" H 5850 3800 50  0000 C CNN
+F 1 "LED" H 5850 3600 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 5850 3700 50  0001 C CNN
+F 3 "" H 5850 3700 50  0000 C CNN
+	1    5850 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 586A4B1C
+P 6200 3700
+F 0 "D3" H 6200 3800 50  0000 C CNN
+F 1 "LED" H 6200 3600 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 6200 3700 50  0001 C CNN
+F 3 "" H 6200 3700 50  0000 C CNN
+	1    6200 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2N3904 Q4
+U 1 1 586A4BBE
+P 5750 4700
+F 0 "Q4" H 5950 4600 50  0000 L CNN
+F 1 "2N3904" H 5850 4700 50  0000 L CNN
+F 2 "Fucking Kikad:2n3904" H 5750 4700 60  0001 C CNN
+F 3 "2N3904" H 5750 4700 50  0001 L CNN
+F 4 "0.38 USD" H 5750 4700 50  0001 L CNN "Price"
+F 5 "None" H 5750 4700 50  0001 L CNN "Package"
+F 6 "NTE Electronics" H 5750 4700 50  0001 L CNN "MF"
+F 7 "Good" H 5750 4700 50  0001 L CNN "Availability"
+F 8 "t-Npn- Si-Gen Pur Amp- Sw" H 5750 4700 50  0001 L CNN "Description"
+	1    5750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Photores R5
+U 1 1 586A4C58
+P 5100 4600
+F 0 "R5" V 5180 4600 50  0000 C CNN
+F 1 "Photores" V 5310 4600 50  0000 C TNN
+F 2 "Discret:R1" V 5030 4600 50  0001 C CNN
+F 3 "" H 5100 4600 50  0000 C CNN
+	1    5100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P3
+U 1 1 586AB542
+P 6100 2050
+F 0 "P3" H 6100 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 6200 2050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 6100 2050 50  0001 C CNN
+F 3 "" H 6100 2050 50  0000 C CNN
+	1    6100 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X03 P2
+U 1 1 586ABA1B
+P 6100 1650
+F 0 "P2" H 6100 1850 50  0000 C CNN
+F 1 "CONN_01X03" V 6200 1650 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 6100 1650 50  0001 C CNN
+F 3 "" H 6100 1650 50  0000 C CNN
+	1    6100 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 586AD297
+P 7150 1600
+F 0 "P4" H 7150 1750 50  0000 C CNN
+F 1 "CONN_01X02" V 7250 1600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 7150 1600 50  0001 C CNN
+F 3 "" H 7150 1600 50  0000 C CNN
+	1    7150 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 2400 8500 3300
+Wire Wire Line
+	8500 3700 8500 3750
+Wire Wire Line
+	8500 4050 8500 4100
+Wire Wire Line
+	8000 4300 8200 4300
+Wire Wire Line
+	8100 4500 8100 4300
+Connection ~ 8100 4300
+Wire Wire Line
+	8100 4700 8100 4850
+Wire Wire Line
+	7600 4850 8500 4850
+Wire Wire Line
+	3700 4650 3700 5100
+Wire Wire Line
+	2950 4450 3400 4450
+Wire Wire Line
+	2200 4250 2650 4250
+Wire Wire Line
+	1650 4050 1900 4050
+Wire Wire Line
+	3700 4150 3700 4250
+Wire Wire Line
+	3700 3750 3700 3850
+Wire Wire Line
+	2200 3300 3700 3300
+Wire Wire Line
+	2200 3300 2200 3500
+Wire Wire Line
+	2200 3800 2200 3850
+Wire Wire Line
+	2950 3500 2950 3300
+Connection ~ 2950 3300
+Wire Wire Line
+	2950 3800 2950 4050
+Wire Wire Line
+	7400 4300 7700 4300
+Wire Wire Line
+	7400 4500 7600 4500
+Wire Wire Line
+	7600 4500 7600 4850
+Connection ~ 8100 4850
+Wire Wire Line
+	7400 4100 7600 4100
+Wire Wire Line
+	7600 4100 7600 3300
+Wire Wire Line
+	7600 3300 8500 3300
+Connection ~ 8500 3300
+Wire Wire Line
+	5850 3500 5850 3300
+Wire Wire Line
+	5100 3300 6200 3300
+Wire Wire Line
+	5100 3300 5100 3500
+Wire Wire Line
+	6200 3300 6200 3500
+Connection ~ 5850 3300
+Wire Wire Line
+	5850 3900 5850 4000
+Wire Wire Line
+	6200 3900 6200 4000
+Wire Wire Line
+	6200 4500 6200 4300
+Wire Wire Line
+	5550 4150 5100 4150
+Wire Wire Line
+	5100 3800 5100 4350
+Connection ~ 5100 4150
+Wire Wire Line
+	5100 4850 5100 5100
+Wire Wire Line
+	3700 5100 9100 5100
+Wire Wire Line
+	3700 2400 3700 3350
+Connection ~ 3700 3300
+Wire Wire Line
+	7200 1350 7200 1400
+Wire Wire Line
+	6200 1350 6200 1450
+Wire Wire Line
+	6000 1350 7100 1350
+Wire Wire Line
+	6100 1350 6100 1450
+Connection ~ 6200 1350
+Wire Wire Line
+	6000 1450 6000 1350
+Wire Wire Line
+	3700 2400 6000 2400
+Wire Wire Line
+	6000 2400 6000 2250
+Wire Wire Line
+	6200 2250 6200 2400
+Wire Wire Line
+	6200 2400 8500 2400
+Wire Wire Line
+	6100 3300 6100 2250
+Connection ~ 6100 3300
+Wire Wire Line
+	9100 5100 9100 1350
+Wire Wire Line
+	9100 1350 7200 1350
+Connection ~ 5850 5100
+Connection ~ 5100 5100
+Wire Wire Line
+	8500 4500 8500 5100
+Connection ~ 8500 5100
+Connection ~ 8500 4850
+Wire Wire Line
+	7100 1350 7100 1400
+Connection ~ 6100 1350
+Text Label 9100 1700 0    60   ~ 0
+GND
+Text Label 6550 1350 0    60   ~ 0
+VSS
+Wire Wire Line
+	5850 4900 5850 5100
+Wire Wire Line
+	5550 4150 5550 4700
+Wire Wire Line
+	5550 4700 5650 4700
+Wire Wire Line
+	5850 4500 6200 4500
+Wire Wire Line
+	5850 4500 5850 4300
+$EndSCHEMATC

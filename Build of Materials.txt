@@ -1,0 +1,14 @@
+1 pin female header		=	1
+1M Resistor			=	1
+100K Resistor			=	1
+220 Resistor			=	4
+BC547 Transistor		=	4
+3mm LED				=	4
+LDR / Photo Resistor		= 	1
+47K Resistor			=	1
+2N3904 Transistor		=	1
+1K Resistor			=	1
+10uf (electrolytic) cap		=	1
+3 pins male header		=	2
+2 pins female header		=	1
+TSOP4838			=	1
